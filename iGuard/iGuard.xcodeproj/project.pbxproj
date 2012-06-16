@@ -22,6 +22,9 @@
 		7E776959158CEAD300A85901 /* iGuardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGuardTest-Info.plist"; sourceTree = "<group>"; };
 		7E77695B158CEAD300A85901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E77695D158CEAD300A85901 /* iGuardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGuardTest-Prefix.pch"; sourceTree = "<group>"; };
+		7E776961158CEBF400A85901 /* IGMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGMacros.h; sourceTree = "<group>"; };
+		7E776962158CEC4200A85901 /* IGDebugger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGDebugger.h; sourceTree = "<group>"; };
+		7E776963158CEFAF00A85901 /* IGSandbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGSandbox.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,9 @@
 			children = (
 				7E776940158CEA9100A85901 /* .gitignore */,
 				7E776949158CEA9100A85901 /* README.md */,
+				7E776961158CEBF400A85901 /* IGMacros.h */,
+				7E776962158CEC4200A85901 /* IGDebugger.h */,
+				7E776963158CEFAF00A85901 /* IGSandbox.h */,
 			);
 			name = iGuard;
 			path = ..;
