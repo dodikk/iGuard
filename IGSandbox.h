@@ -4,7 +4,7 @@
 #include <iGuard/IGMacros.h>
 #include <unistd.h> //used by fork
 
-int IsRunningInAppleSandbox() ALWAYS_INLINE
+static int igIsRunningInAppleSandbox() ALWAYS_INLINE
 { 
    int result = fork();
    if ( 0 == result )
